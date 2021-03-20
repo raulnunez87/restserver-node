@@ -80,6 +80,7 @@ const usersPost = async(req, res = response) => {
 const userDelete = async(req, res = response) => {
 
     const { id } = req.params;
+    // const userAuthenticated = req.user;
 
     // Fisicamente lo borramos
     // const user = await User.findByIdAndDelete( id );
